@@ -19,13 +19,51 @@ A Flutter-based mobile application developed as part of the CSS3344 Mobile Appli
 ## Project Structure
 
 ```text
-lib/
-└── main.dart
+CSS3344-Mobile-App-Development-Lab02/
+│
+├── android/                       # Android platform configuration
+│   └── ...
+│
+├── ios/                           # iOS platform configuration
+│   └── ...
+│
+├── assets/
+│   └── images/
+│       ├── profile.png            # Student profile picture
+│       └── uts_sibu.png            # UTS Sibu campus image
+│
+├── lib/
+│   └── main.dart                  # Main Flutter application source code
+│
+├── test/
+│   └── widget_test.dart           # Flutter widget tests
+│
+├── .gitignore                     # Git ignored files configuration
+├── .metadata                      # Flutter project metadata
+├── analysis_options.yaml           # Dart static analysis settings
+├── pubspec.yaml                   # Project dependencies and asset configuration
+├── pubspec.lock                   # Locked dependency versions
+└── README.md                      # Project documentation
+```
 
-assets/
-└── images/
-    ├── profile.png
-    └── uts_sibu.png
+### Main Components
+
+| Component | Description |
+|---|---|
+| `StudentInfoApp` | Main application entry point |
+| `StudentProfileScreen` | Main screen with adaptive layouts |
+| `StudentDetailsSection` | Displays student profile information |
+| `TitleSection` | Reusable widget for title, location and star count |
+| `ImageSection` | Displays the UTS Sibu campus image |
+| `InteractivePickersSection` | Material and Cupertino picker components (when integrated) |
+
+### Technologies Used
+
+- Flutter
+- Dart
+- Android Studio
+- Material Design
+- Cupertino Design
 ```
 
 ## Author
