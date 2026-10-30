@@ -1,17 +1,35 @@
-# first_flutter_app
+# CSS3344 Mobile Application Development – Lab 02
 
-A new Flutter project.
+A Flutter-based mobile application developed as part of the CSS3344 Mobile Application Development practical assignment at University of Technology Sarawak (UTS).
 
-## Getting Started
+## Lab Objectives
 
-This project is a starting point for a Flutter application.
+- UI Fundamentals and Layout Construction
+- Widget Decomposition and Reusable Components
+- Responsive UI with Portrait and Landscape Orientation
+- Material and Cupertino Date Pickers
+- Material Dropdown and Cupertino Wheel Picker
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Dart
+- Android Studio
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+```text
+lib/
+└── main.dart
+
+assets/
+└── images/
+    ├── profile.png
+    └── uts_sibu.png
+```
+
+## Author
+
+Vincent Lee Cheng Hong
+
+University of Technology Sarawak (UTS)
